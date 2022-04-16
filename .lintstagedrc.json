@@ -1,4 +1,4 @@
 {
-  "*.+(js|jsx)": ["eslint --fix --ignore-path .gitignore .", "git add"],
-  "*.+(json|css|md)": ["prettier --write", "git add"]
+  "*.+(js|jsx)": ["eslint --fix --ignore-path .gitignore ."],
+  "*.+(json|css|md)": ["prettier --write"]
 }
