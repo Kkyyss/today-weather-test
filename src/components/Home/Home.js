@@ -46,7 +46,7 @@ export default function Home() {
     [searchHistoryState]
   );
 
-  // apply search on search histroy, re-call search function
+  // apply search on search history, re-call search function
   const searchHistoryHandler = useCallback(
     async (id) => {
       const [searchHistory] = searchHistoryState.filter((v) => v.id === id);
