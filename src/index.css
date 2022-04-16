@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+/* global */
+.center {
+  text-align: center;
+}
+.container {
+  margin: 24px;
+}
+.flex {
+  display: flex;
+  gap: 4px;
+}
+
+/* details */
+.details {
+  margin: 12px 0px;
+}
+
+/* list */
+.list {
+  margin: 0px 12px;
+}
+
+/* loading */
+.loading {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.loading__spin {
+  margin-top: 20px;
+}
