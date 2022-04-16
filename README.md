@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Hosting Platform
 
-`Heroku - [https://today-weather-test.herokuapp.com/](https://today-weather-test.herokuapp.com/)`
+Heroku - [https://today-weather-test.herokuapp.com/](https://today-weather-test.herokuapp.com/)
 
 ## Installation & Development
 
