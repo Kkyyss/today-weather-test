@@ -15,6 +15,7 @@ function ActionList(props) {
       {dataSource.length ? (
         dataSource.map(({ id, city, country }, index) => (
           <List.Item
+            className="list__item"
             key={nanoid()}
             actions={[
               <Button
@@ -35,7 +36,7 @@ function ActionList(props) {
               />,
             ]}
           >
-            <List.Item.Meta title={`${index + 1} ${city}, ${country.toUpperCase()}`} />
+            <List.Item.Meta title={`${index + 1}. ${city}, ${country.toUpperCase()}`} />
             <div>{dayjs(id).format('hh:mm:ss A')}</div>
           </List.Item>
         ))
