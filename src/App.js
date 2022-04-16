@@ -1,5 +1,3 @@
-// import Home from 'components/Home';
-
 import { Spin } from 'antd';
 import React, { Suspense } from 'react';
 
